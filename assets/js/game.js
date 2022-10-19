@@ -16,7 +16,7 @@ console.log(enemyNames[3]);
 
 // fight function (now with parameter for enemy's name)
 var fight = function(enemyName) {
-    while (enemyHealth>0 && enemyHealth>0) { 
+    while (playerHealth>0 && enemyHealth>0) { 
         // ask player if they'd like to fight or run
         var promptFight = window.prompt('Would you like to FIGHT or SKIP this battle? Enter "FIGHT" or "SKIP" to choose.');
 
